@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+}
+p{
+    font-size: 18px;
+    color: #707070;
+    margin: 20px 0;
+    line-height: 28px;
+}
+h1{
+    font-size:45px;
+}
+img{
+    max-width: 100%;
+}
+section{
+    margin: 150px auto;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.primary-btn{
+    background: #FF5959;
+    font-size: 18px;
+    padding:20px 40px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+    color:white;
+    font-weight: 700;
+
+}
+/* Global CSS END HERE */
+header{
+    background-image: linear-gradient(rgb(255 255 255 / 0%), rgb(0, 0, 0)), url(images/donation10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+}
+.header-content p{
+    color:white;
+    font-weight: 400;
+}
+.header-content h1{
+    font-size:65px;
+}
+/* Header CSS END HERE */
+
+#donate{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+#donate input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-size:18px;
+    width:55%;
+    text-align:center;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.select-amount {
+    display:flex;
+    flex-wrap: wrap;
+}
+.select-amount li{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background: #FAFAFA;
+    color: #707070;
+    border: 1px solid rgb(243, 237, 237);
+    border-radius:5px;
+    height:123px;
+    width: 136px;
+    margin-left:20px;
+    font-size:30px;
+    font-weight:700;
+    list-style: none;
+}
+#active-amount {
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+}
+/* Donate Today CSS END HERE */
+
+#donate-plan{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.plan-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: justify; */
+    width:360px;
+    height:352px;
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+}
+.item-one{
+    background-color:#4F9DA61A;
+}
+.item-two{
+    background-color:#FF59591A;
+}
+.item-three{
+    background-color:#FFF4D6;
+}
+.plan-item h2{
+    margin: 20px 0;
+}
+/* Donate Plan CSS END HERE */
+
+#latest-update{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column
+}
+.news{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.news h1{
+    font-size:35px;
+}
+.news-img img{
+    border-radius:10px;
+}
+.half-width{
+    margin-top: 100px;
+    flex-basis: 50%;
+    padding:20px;
+}
