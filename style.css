@@ -34,7 +34,7 @@ section{
     margin-right: auto;
 }
 .primary-btn{
-    background: #FF5959;
+    background: #3bcf93;
     font-size: 18px;
     padding:20px 40px;
     margin:10px 0;
@@ -98,8 +98,8 @@ header{
     list-style: none;
 }
 #active-amount {
-    background-color: #FFEEEE;
-    border: 1px solid #FF5959;
+    background-color: #edf5f6;
+    border: 1px solid #3bcf93;
 }
 /* Donate Today Section CSS END HERE */
 
@@ -130,27 +130,41 @@ header{
 /* Donate Plan Section CSS END HERE */
 
 /* Latest Update Section CSS Start Here */
-.news{
+
+
+#latest-update{
+    background-color:#3BCF93;
+    color:white;
+}
+.update-container{
+    height:80vh;
     display:flex;
-    justify-content:center;
-    align-items:center;
 }
-.news h1{
-    font-size:35px;
+.update-left{
+    padding:40px 80px;
 }
-.news-img img{
-    border-radius:10px;
+.update-left p{
+    color:white;
+}
+.update-left button{
+    background-color:#fff;
+    color: #000;
+}
+.update-right{
+    background-image: url(images/sylhet_sheikh_nasir-web.jpg);
+    height:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .half-width{
-    margin-top: 100px;
-    flex-basis: 50%;
-    padding:20px;
+    flex-basis:50%;
 }
 /* Latest Update Section CSS END HERE */
 
 /* Newsletter Section CSS Start Here */
 .email-box{
-    background-color:#FFF4D6;
+    background-color:rgb(237, 245, 246);
     width:809px;
     height:200px;
     display:flex;
@@ -161,11 +175,11 @@ header{
     font-size:18px;
     width:250px;
     padding:10px;
-    background:#D9D9D9;
-    border : solid #D9D9D9;
+    background:#eee9e9;
+    border : solid #eee9e9;
 }
 #subscribe-btn{
-    background-color:#FF5959;
+    background-color:#3bcf93;
     color:#fff;
     font-size: 18px;
     padding: 13px 20px;
@@ -180,7 +194,7 @@ footer{
 }
 footer h1{
     font-family: 'Lobster', cursive;
-    color: #FF5959;
+    color: #3bcf93;
 }
 footer p{
     color:white;
