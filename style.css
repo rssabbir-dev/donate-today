@@ -163,6 +163,13 @@ header{
 /* Latest Update Section CSS END HERE */
 
 /* Newsletter Section CSS Start Here */
+#newsletter{
+    text-align:center;
+}
+#newsletter img{
+    height:100px;
+    margin-bottom:10px;
+}
 .email-box{
     background-color:rgb(237, 245, 246);
     width:809px;
